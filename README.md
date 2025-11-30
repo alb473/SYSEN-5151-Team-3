@@ -2,6 +2,17 @@
 
 Team 3 Systems Engineering graduate student group project demonstrating the integration of a **Shiny App**, **REST API**, **Database**, and **AI Agent** for analyzing Credit Card Benefit Tracker data.
 
+## Problem Statement
+
+According to a 2025 CreditCards.com survey, 23% of rewards cardholders haven’t redeemed any rewards over the past year.
+- Reward credit card customers are missing out on “fee money” card issues providing for using their card
+- 50% of American adults have 2+ credit cards
+- Cardholders struggle to manage multiple credit cards and utilize all of the benefits offered
+
+## Team Goal
+
+To create a tool that helps users manage multiple credit cards to track and maximize rewards.
+
 ## 🎯 Project Overview
 
 This project showcases a complete data science pipeline that:
@@ -9,6 +20,14 @@ This project showcases a complete data science pipeline that:
 - **API**: RESTful service built with R Plumber for data processing
 - **Database**: Public Google Sheets as a data source (simulating a database)
 - **AI Agent**: LLM integration for intelligent data summarization
+
+## Solution/Objective
+
+- **Single Rewards Tracker**: A mobile application that brings together rewards, perks, and offers from all the credit cards.
+- **Unified Dashboard**: View and manage all credit card rewards, balances, and benefits in one easy-to-use interface.
+- **AI Assistant**: AI-powered assistant that learns spending habits across multiple cards and the rewards marketplace to deliver tailored strategies for maximizing benefits.
+- **Personalized Recommendations**: Get real-time guidance on the best card to use for each purchase category (travel, dining, groceries, and others).
+- **Smart Reminders**: Stay on top of expiring rewards, rotating bonus categories, and limited-time offers with timely alerts.
 
 ## 🏗️ Architecture
 
@@ -23,17 +42,17 @@ This project showcases a complete data science pipeline that:
 
 ### Core Files
 
-- **[`run.sh`](https://github.com/foundations/tree/main/example_project/run.sh)** - Main orchestration script that starts all services
-- **[`README.md`](https://github.com/foundations/tree/main/example_project/README.md)** - This documentation file
+- **need to add run sh reference** - Main orchestration script that starts all services
+- **need to add readme reference** - This documentation file
 
 ### App Directory (`/app`)
 
-- **[`app.R`](https://github.com/foundations/tree/main/example_project/app/app.R)** - Shiny web application for insulin pump data visualization
+- **need to add app directory reference** - Shiny web application for insulin pump data visualization
 
 ### API Directory (`/api`)
 
-- **[`plumber.R`](https://github.com/foundations/tree/main/example_project/api/plumber.R)** - REST API endpoints for data processing and AI integration
-- **[`run.R`](https://github.com/foundations/tree/main/example_project/api/run.R)** - API server startup script
+- **add plumber reference** - REST API endpoints for data processing and AI integration
+- **add r script reference** - API server startup script
 
 ## 🚀 Quick Start
 
