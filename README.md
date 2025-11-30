@@ -43,7 +43,7 @@ This project showcases a complete data science pipeline that:
 ### Core Files
 
 - **need to add run sh reference** - Main orchestration script that starts all services
-- [`README.md`]- This documentation file
+- [`README.md`] (README.md)- This documentation file
 
 ### App Directory (`/app`)
 
