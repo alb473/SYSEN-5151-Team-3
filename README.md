@@ -167,9 +167,6 @@ This will:
 
 - Add additional credit cards
 - Extra benefit tracking visualizations
-- Include predictive modeling capabilities
 - Add referal links
-- Add additional endpoints for different analyses
-- Alternative database integration (SQLite, PostgreSQL, MySQL, etc.)
-- Add authentication and user management (Advanced)
-- Deploy using Docker containers (Advanced)
+- Add cent per point values
+- Add transfer partner cent per point values
