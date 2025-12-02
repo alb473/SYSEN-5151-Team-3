@@ -58,7 +58,7 @@ This project showcases a complete data science pipeline that:
 
 ### Prerequisites
 
-- add
+- Make sure you have a figma accont or create one
 
 ### Installation & Setup
 
@@ -68,21 +68,20 @@ git clone [https://github.com/foundations/tree/main/example_project
 cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README.md)
 ```
 
-2. **Install code**:
+2. **Access the website**:
+```https://cat-coal-70641067.figma.site/welcome
 ```
+
+3. **Access the code**
+```[https://cat-coal-70641067.figma.site/welcome](https://www.figma.com/make/WmYF3xhMTaF3sQWs05wHM1/SYSEN5151?node-id=0-1&p=f&t=BZSpuWUKZYf59HoM-0)
 ```
-
-3. **Install LM Studio** 
-
-### Running the System
-
-
 
 ## 🔧 Component Details
 
 ### 1. Website
-
-**Purpose**: 
+```https://cat-coal-70641067.figma.site/welcome
+```
+**Purpose**: To give users the ability to track credit card benefits and rewards for multiple credit cards.
 
 **Features**:
 - Can select multiple credit cards to track
@@ -102,7 +101,7 @@ cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README
 **Key Functions**:
 
 
-### 3. Database (Google Sheets)
+### 3. Database
 
 **Purpose**: 
 
