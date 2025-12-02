@@ -58,110 +58,83 @@ This project showcases a complete data science pipeline that:
 
 ### Prerequisites
 
-- R with packages: `shiny`, `plumber`, `dplyr`, `readr`, `httr2`, `jsonlite`, `knitr`
-- LM Studio for local LLM hosting
-- Bash shell (for `run.sh`)
+- add
 
 ### Installation & Setup
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/foundations/tree/main/example_project
-cd example_project
+git clone [https://github.com/foundations/tree/main/example_project
+cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README.md)
 ```
 
-2. **Install R dependencies**:
-```r
-install.packages(c("shiny", "plumber", "dplyr", "readr", "httr2", "jsonlite", "knitr"))
+2. **Install code**:
+```
 ```
 
-3. **Install LM Studio** and download the `google/gemma-3-1b` model
+3. **Install LM Studio** 
 
 ### Running the System
 
-Execute the main orchestration script in `git bash`.
-```bash
-./run.sh
-```
 
-This will:
-1. Start the LLM service (LM Studio on port `1234`)
-2. Launch the REST API (R Plumber on port `8000`)
-3. Start the Shiny app (on port `8001`)
 
 ## 🔧 Component Details
 
-### 1. Shiny App (`/app/app.R`)
+### 1. Website
 
-**Purpose**: Interactive web interface for insulin pump data analysis
+**Purpose**: 
 
 **Features**:
-- Multi-select pump type interface
-- Real-time data table display
-- AI-generated summary analysis
-- RESTful API integration
+- Can select multiple credit cards to track
+- AI generated recommendations
+- Offer tracking
 
 **Key Functions**:
-- `api_data()`: Fetches data from the API
-- `renderTable()`: Displays statistical summaries
-- `renderText()`: Shows AI-generated insights
 
-### 2. REST API (`/api/plumber.R`)
 
-**Purpose**: Backend service for data processing and AI integration
+### 2. REST API 
+
+**Purpose**: 
 
 **Endpoints**:
-- `GET /summary?pumpid={ids}`: Returns statistical analysis and AI summary
+-
 
 **Key Functions**:
-- `get_data(pumpid)`: Retrieves data from Google Sheets
-- `get_stat(data)`: Calculates summary statistics
-- `get_blurb(stat)`: Formats data as markdown
-- `get_chat(blurb)`: Generates AI insights via LLM
+
 
 ### 3. Database (Google Sheets)
 
-**Purpose**: Public data source containing insulin pump satisfaction surveys
+**Purpose**: 
 
 **Data Structure**:
-- `timestamp`: Survey submission time
-- `type`: Pump model (Medtronic, Omnipod, Tandem)
-- `satisfaction`: User satisfaction rating
-- `failed`: Failure occurrence
-- `date_failed`: Failure date
 
-### 4. AI Agent (LM Studio)
 
-**Purpose**: Intelligent data summarization and insights generation
+### 4. AI Agent
+
+**Purpose**: 
 
 **Configuration**:
-- Model: `google/gemma-3-1b`
-- System prompt: Specialized for insulin pump data analysis
-- Temperature: 0.7 for balanced creativity/consistency
+- Model: `custom ML Model`
+- System prompt: Specialized for credit card benefit tracking analysis
 
 ## 📊 Data Flow
 
-1. **User Input**: Select pump types in Shiny app
-2. **API Request**: App sends GET request to `/summary` endpoint
-3. **Data Retrieval**: API fetches data from Google Sheets
-4. **Statistical Analysis**: Calculate means, standard deviations, sample sizes
+1. **User Input**: Select card types
+2. **API Request**: Secure OAuth or Plaid/Finicity API connection.
+3. **Data Retrieval**: Real time reward data from APIs
+4. **Statistical Analysis**: Calculate bonus totals, calculate bonuses, calculate best deals
 5. **AI Processing**: Send formatted data to LLM for summarization
-6. **Response**: Return both statistical table and AI insights
-7. **Display**: App renders results in interactive interface
+6. **Response**: Return insights and offers
+7. **Display**: App renders card benefit tracking results in interactive interface
 
 ## 🔍 Technical Highlights
 
-- **Asynchronous Processing**: Non-blocking API calls
-- **Modular Design**: Separated concerns across components
-- **Scalable Architecture**: Easy to extend with additional endpoints
-- **Production-Ready**: Proper logging and error management
+
 
 ## 🛠️ Development Notes
 
-- The system uses a public Google Sheet as a database substitute
-- LM Studio provides local LLM hosting for privacy and cost control
-- All services run on different ports to avoid conflicts
-- The orchestration script handles service startup sequencing
+- The system uses AI to track different offers
+- User input including type of card details directs them to curated data
 
 ## 📈 Optional Enhancements
 
