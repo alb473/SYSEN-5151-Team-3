@@ -56,23 +56,20 @@ cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README
 ### Installation & Setup
 
 1. **Access the repository**:
-```[https://github.com/foundations/tree/main/example_project
-cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README.md)
-```
+- **([https://github.com/foundations/tree/main/example_project/run.sh](https://github.com/foundations/tree/main/example_project
+cd example_project))**
 
 2. **Access the website**:
-```[https://cat-coal-70641067.figma.site/welcome](https://cat-coal-70641067.figma.site/welcome)
-```
+- **([https://cat-coal-70641067.figma.site/welcome](https://cat-coal-70641067.figma.site/welcome))**
 
 3. **Access the code**
-```[https://cat-coal-70641067.figma.site/welcome](https://www.figma.com/make/WmYF3xhMTaF3sQWs05wHM1/SYSEN5151?node-id=0-1&p=f&t=BZSpuWUKZYf59HoM-0)
-```
+- **([https://cat-coal-70641067.figma.site/welcome](https://www.figma.com/make/WmYF3xhMTaF3sQWs05wHM1/SYSEN5151?node-id=0-1&p=f&t=BZSpuWUKZYf59HoM-0))**
 
 ## 🔧 Component Details
 
 ### 1. Website
-```[https://cat-coal-70641067.figma.site/welcome](https://cat-coal-70641067.figma.site/welcome)
-```
+- **([https://cat-coal-70641067.figma.site/welcome](https://cat-coal-70641067.figma.site/welcome))
+
 **Purpose**: To give users the ability to track credit card benefits and rewards for multiple credit cards.
 
 **Features**:
