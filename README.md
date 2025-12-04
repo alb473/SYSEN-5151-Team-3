@@ -1,6 +1,6 @@
 # SYSEN-5151 Team 3 Project
 
-Team 3 Systems Engineering graduate student group project demonstrating the integration of a **Shiny App**, **REST API**, **Database**, and **AI Agent** for analyzing Credit Card Benefit Tracker data.
+Team 3 Systems Engineering graduate student group project demonstrating the integration of a app, real-time reward data from APIs, and usage analytics for analyzing Credit Card Benefit Tracker data.
 
 ## Problem Statement
 
@@ -17,9 +17,9 @@ To create a tool that helps users manage multiple credit cards to track and maxi
 
 This project showcases a complete data science pipeline that:
 - **App**: Interactive Credit Card Benefit Tracker web application for data visualization
-- **API**: RESTful service built with R Plumber for data processing
-- **Database**: Public Google Sheets as a data source (simulating a database)
-- **AI Agent**: LLM integration for intelligent data summarization
+- **API**: Secure OAuth or Plaid/Finicity API connection
+- **Database**: Integration with merchant/category datasets
+- **AI Agent**: quick access to AI Assistant - converstational chat interface that has intelligent responses aout card recommendations, expiring rewards and personalized insights
 
 ## Solution/Objective
 
@@ -33,8 +33,8 @@ This project showcases a complete data science pipeline that:
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   CC Track App     │───▶│   REST API      │───▶│   Database      │───▶│   AI Agent      │
-│   (Port 8001)   │    │   (Port 8000)   │    │   (Google Sheet)│    │   (Port 1234)   │
+│   CC Track App  │───▶│   REST API     │───▶│   Databas       │──▶│   AI Agent      │
+│                 │    │                 │    │                 │    │                 │
 └─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
@@ -42,29 +42,21 @@ This project showcases a complete data science pipeline that:
 
 ### Core Files
 
-- **need to add run sh reference** - Main orchestration script that starts all services
+- **All code is accessible on github** - Main orchestration script that starts all services
 - [`README.md`] (README.md)- This documentation file
-
-### App Directory (`/app`)
-
-- **need to add app directory reference** - Shiny web application for insulin pump data visualization
-
-### API Directory (`/api`)
-
-- **add plumber reference** - REST API endpoints for data processing and AI integration
-- **add r script reference** - API server startup script
+- [https://github.com/foundations/tree/main/example_project
+cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README.md)
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- Make sure you have a figma accont or create one
+- Make sure you have a figma account or create one
 
 ### Installation & Setup
 
-1. **Clone the repository**:
-```bash
-git clone [https://github.com/foundations/tree/main/example_project
+1. **Access the repository**:
+```[https://github.com/foundations/tree/main/example_project
 cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README.md)
 ```
 
@@ -88,47 +80,15 @@ cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README
 - AI generated recommendations
 - Offer tracking
 
-**Key Functions**:
-
-
-### 2. REST API 
-
-**Purpose**: 
-
-**Endpoints**:
--
-
-**Key Functions**:
-
-
-### 3. Database
-
-**Purpose**: 
-
-**Data Structure**:
-
-
-### 4. AI Agent
-
-**Purpose**: 
-
-**Configuration**:
-- Model: `custom ML Model`
-- System prompt: Specialized for credit card benefit tracking analysis
-
 ## 📊 Data Flow
 
-1. **User Input**: Select card types
-2. **API Request**: Secure OAuth or Plaid/Finicity API connection.
+1. **User Input**: Login credentials, Select card types, Input card info (optional)
+2. **API Request**: Real-time reward data from APIs
 3. **Data Retrieval**: Real time reward data from APIs
-4. **Statistical Analysis**: Calculate bonus totals, calculate bonuses, calculate best deals
-5. **AI Processing**: Send formatted data to LLM for summarization
+4. **Statistical Analysis**: Calculate bonus totals, calculate bonuses, calculate best deals, calculate best card recommendations
+5. **AI Processing**: Send formatted data to analyzer for visualization graphs/charts
 6. **Response**: Return insights and offers
 7. **Display**: App renders card benefit tracking results in interactive interface
-
-## 🔍 Technical Highlights
-
-
 
 ## 🛠️ Development Notes
 
@@ -138,7 +98,8 @@ cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README
 ## 📈 Optional Enhancements
 
 - Add additional credit cards
-- Extra benefit tracking visualizations
-- Add referal links
+- Add other financial benefit account opportunities like high yield savings accounts
+- Add extra benefit tracking visualizations
+- Add referral links
 - Add cent per point values
 - Add transfer partner cent per point values
