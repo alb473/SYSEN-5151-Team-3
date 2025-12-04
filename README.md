@@ -67,7 +67,7 @@ cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README
 ## 🔧 Component Details
 
 ### 1. Website
-- **([https://cat-coal-70641067.figma.site/welcome](https://cat-coal-70641067.figma.site/welcome))
+- ([https://cat-coal-70641067.figma.site/welcome](https://cat-coal-70641067.figma.site/welcome))
 
 **Purpose**: To give users the ability to track credit card benefits and rewards for multiple credit cards.
 
