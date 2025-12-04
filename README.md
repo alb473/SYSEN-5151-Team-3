@@ -56,8 +56,7 @@ cd example_project](https://github.com/alb473/SYSEN-5151-Team-3/edit/main/README
 ### Installation & Setup
 
 1. **Access the repository**:
-- **([https://github.com/foundations/tree/main/example_project/run.sh](https://github.com/foundations/tree/main/example_project
-cd example_project))**
+- **([https://github.com/alb473/SYSEN-5151-Team-3](https://github.com/alb473/SYSEN-5151-Team-3))**
 
 2. **Access the website**:
 - **([https://cat-coal-70641067.figma.site/welcome](https://cat-coal-70641067.figma.site/welcome))**
